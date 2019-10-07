@@ -11,7 +11,7 @@ import com.example.tareamultiplesfragmentos.R;
 import android.content.Intent;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     Button btn1, btn2;
 
@@ -39,9 +39,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        Intent int1 = new Intent(this, Fragmento1.class);
-        startActivity(int1);
-        finish();
+
 
     }
 
